@@ -37,7 +37,7 @@ This chatbot can understand and respond to user queries in real-time, providing 
     python app.py
 
 
-## 📁 Project Structure  
+'## 📁 Project Structure
 \`\`\`
 chatbot/
 │
@@ -48,6 +48,7 @@ chatbot/
 ├── Procfile             # Deployment instruction for Render
 └── README.md            # Project documentation
 \`\`\`
+'
 
 
 ## 🧑‍💻 Author  
