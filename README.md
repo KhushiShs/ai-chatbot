@@ -36,7 +36,7 @@ This chatbot can understand and respond to user queries in real-time, providing 
     ```bash
     python app.py
 
-
+cat >> README.md << 'EOF'
 '## 📁 Project Structure
 \`\`\`
 chatbot/
@@ -49,6 +49,8 @@ chatbot/
 └── README.md            # Project documentation
 \`\`\`
 '
+EOF
+
 
 
 ## 🧑‍💻 Author  
