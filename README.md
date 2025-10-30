@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 💬 AI Chatbot Web App  
 
 An intelligent chatbot web application built using **Flask** and **Transformers** (Hugging Face).  
@@ -53,4 +52,3 @@ chatbot/
 
 ## 🧑‍💻 Author  
 **Khushi Sharma**  
-" > README.md
