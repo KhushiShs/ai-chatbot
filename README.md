@@ -36,21 +36,6 @@ This chatbot can understand and respond to user queries in real-time, providing 
     ```bash
     python app.py
 
-@"
-'## 📁 Project Structure
-\`\`\`
-chatbot/
-│
-├── static/              # CSS, JS, images
-├── templates/           # HTML files
-├── app.py               # Flask application
-├── requirements.txt     # Python dependencies
-├── Procfile             # Deployment instruction for Render
-└── README.md            # Project documentation
-\`\`\`
-'
-"@ | Out-File -Append README.md -Encoding utf8
-
 
 ## 🧑‍💻 Author  
 **Khushi Sharma**  
