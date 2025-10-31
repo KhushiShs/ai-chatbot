@@ -1,4 +1,5 @@
 from flask import Flask , render_template , request , jsonify
+import os 
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
@@ -37,5 +38,6 @@ def get_Chat_response(text):
         return tokenizer.decode(chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
 
 
-if __name__ == '__main__':
-    app.run()
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
